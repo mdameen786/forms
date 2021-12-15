@@ -1,0 +1,588 @@
+$prim-color:rgb(4, 4, 61);
+$second-color:blue;
+$secon-color:silver;
+%msg3{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+     margin: 0 auto;
+     justify-content: center;
+     align-items: center;
+    right: 0;
+    height: 20rem;
+    background-color:aliceblue;
+    width: 25%;
+    border-radius: 2rem;
+}
+%msgone{
+    color:$secon-color;
+    padding:0.6rem 2rem;
+    font-weight:bolder;
+}
+%msg2{
+    width:1.5rem;
+    height:1.5rem;
+    
+}
+a{
+    color:silver;
+}
+#Add{
+    text-align: left;
+    margin-left: 6rem;
+}
+#pay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+    height: 8rem;
+}
+#Add2{
+    margin-left: 10rem;
+}
+#slide{
+    width: 20%;
+    background-color:$prim-color ;
+    position: fixed;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+    height: 100vh;
+    #icons{
+        margin-right:1rem;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    }
+    ul{
+        height:80vh;
+    }
+    h5{
+        display:flex;
+        justify-content:space-around;
+        @extend %msgone;        
+        }
+    li{
+      @extend %msgone;
+    }
+    li:hover{
+        background-color:$second-color;
+        color:white;
+        cursor:pointer;
+        
+    }
+    #head{
+        display:flex;
+        justify-content:space-evenly;
+        color:white;
+        // 
+        font-weight:bolder;
+        align-items:flex-start;
+        #new{
+            padding:1rem;
+        }
+        p{
+            font-size:2rem;
+            padding:1rem;
+        }
+    }
+    #titles{
+        padding-top:1rem;
+        text-transform: uppercase;
+        font-size:70%;
+    }
+    #titles:hover{
+        cursor:none;
+        background-color:$prim-color;
+    }
+}
+#menu{
+    background-color:white;
+    padding:1rem;
+}
+#chat{
+    display: flex;
+}
+#cmt{
+    height: 15rem;
+    border-radius: 1rem;
+    outline-color: silver;
+    margin: 3rem auto;
+    width: 80%;
+    border-color:silver;   
+    background-color: white;
+    
+}
+
+#btn{
+    color: white;
+    background-color: rgb(23, 199, 23);
+    width: 50%;
+    cursor: pointer;
+    outline-color: transparent;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    border: none;
+    
+}
+#mcontrol{
+    display:none ;
+}
+#fback2{
+    display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 40%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  height: 100vh;
+}
+#chat{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#box3{
+    height: 50%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10rem;
+    right: 0;
+    left: 0;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 2rem;
+    flex-direction: column;
+    background-color: aliceblue;
+    #btnuse{
+        display: flex;
+        justify-content: space-between;
+        width: 6rem;
+        button{
+
+        }
+    }
+}
+#box2{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 2rem;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+#spro2{
+    width: 17rem;
+}
+#hp{
+    display: flex;
+    height: 100vh;
+}
+#total{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+button{
+    color: ghostwhite;
+    background-color: rgb(12, 189, 12);
+    cursor: pointer;
+    border: none;
+    outline-color: transparent;
+    width: 2rem;
+    font-size: 1.4rem;
+    padding: 0.2rem;
+}
+#fback{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+}
+
+
+#ad{
+   height: 10rem;
+   width: 18rem;
+   border-radius: 2rem;
+   position: absolute;
+   right: 0;
+}
+#ui{
+    display:flex;
+}
+#content{
+    width:80%;
+    margin-left: 20%;
+    min-height: 100vh;
+    background-color:whitesmoke;
+    #flag{
+        @extend %msg2;
+    }
+    #swatch2{
+        display:none;
+
+    }
+    #model{
+        // @extend %msg2;
+        width:1.8rem;
+        height:1.8rem;
+        
+    }
+    #flag:hover{
+        cursor:pointer;
+    }
+    #menu{
+        display:flex;
+        align-items:center;
+        
+    }
+    #page{
+        width:65%;
+        h2{
+            padding:2rem;
+
+        }
+        
+        #graphs{
+            display:flex;
+            margin:2rem auto;
+        }
+    }
+    #allbox{
+        display:flex;
+
+        justify-content:space-evenly;
+
+    }
+    #profile{
+        text-align: center;
+        
+        margin: 4rem 0;
+    }
+    #models{
+        display:flex;
+        width: 16rem;
+        height: 17rem;
+        margin: 1rem auto;
+    }
+    #graph{
+        display: flex;
+        width: 90%;
+        margin: 2rem auto;
+    }
+    
+    // #offer{
+    //     display: flex;
+    //     background-color: black;
+        
+    // }
+    #swatch{
+        display: flex;
+        // margin: 4rem auto;
+        margin-bottom: 4rem;
+        justify-content: space-around;
+        text-align: center;
+    }
+    #png{
+        height:15rem;
+        cursor: pointer;
+    }
+    #order{
+        height: 2rem;
+        width: 5rem;
+        background-color: rgb(16, 221, 16);
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #price{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #dates{
+        display:flex;
+        justify-content:space-evenly;
+        width:30%;
+    }
+    #page3{
+        width:20%;
+        display:flex;
+    }
+    #date{
+        background-color:white;
+        color:silver;
+        
+        width:7rem;
+        height:2rem;
+        padding:1rem;
+        align-items:center;
+        display:flex;
+        // justify-content:space-evenly;
+        h6{
+            font-size:80%;
+        }
+        
+        // border-radius:1rem;
+    }
+    #date:hover{
+        cursor:pointer;
+        color:black;
+        font-weight:bold;
+    }
+    #box{
+        background-color:white;
+        width:12rem;
+        height:6rem;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        border-radius:2rem;
+    }
+    #amt{
+        display:flex;
+        align-items:flex-end;
+        justify-content:center;
+        h1{
+            font-size:2rem;
+        }
+        h4{
+            color:green;
+            font-size:1rem;
+        }
+        #loss{
+            color:red;
+        }
+    }
+    #menu3{
+        display:flex;
+        justify-content:space-around;
+        width:12rem;
+    }
+    #offer{
+        background-color: black;
+        border-radius: 3rem;
+        margin-top: 2rem;
+        display: flex;
+        h1{
+            color: darkgray;
+        }
+        #fline{
+            display: flex;
+            justify-content:space-around;
+        }
+        #varity{
+            float: left;
+            display: flex;
+            list-style: none;
+            color: white;
+            justify-content: space-around;
+            font-weight: bold;
+            li{
+                cursor: pointer;
+            }
+        }
+        h2{
+            color: darkgray;
+           
+            font-style: italic;
+            margin: 2rem;
+            font-size: 300%;
+        }
+        #blog{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            h3{
+                display: none;
+            }
+        }
+    }
+    #menu2{
+        display:flex;
+        justify-content:flex-end;
+        width:100%;
+        
+    }
+    #spro:hover{
+        background-color: white;
+        border-radius: 2rem;
+    }
+    
+}
+@media only screen and (max-width:800px){
+ 
+ body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }   
+ #models{
+        height: 15rem;
+        width: 18rem;
+    }
+    #slide{
+        display: none;
+    }
+    #fback2{
+        width: 70%;
+    }
+    #box2{
+        width: 100%;
+    }
+    #spro{
+        width: 5rem;
+    }
+    #content{
+        width: 100%;
+        margin-left: 0;
+        // height: 100vh;
+        #swatch{
+            text-align: left;
+        }
+        #png{
+            height: 6rem;
+            width: 5rem;
+        }
+        #date{
+            display: none;
+        }
+        #order{
+            font-size: 1rem;
+        }
+        #allbox{
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 20rem;
+        }
+        #offer{
+            h2{
+                font-size: 100%;
+            }
+            #fline{
+                display: none;
+            }
+        }
+        #ad{
+            height: 6rem;
+            width: 9rem;
+        }
+        
+        img{
+            width: 8rem;
+            height: 7rem;
+        }
+        #page{
+            width: 20rem;
+            
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            #graphs{
+                width: 20rem;
+            }
+        }       
+       #profile{
+        // margin: 8rem 0;
+        margin: 0;
+        text-align: left;
+        h1{
+            font-size:2rem;
+            text-align: center;
+        }
+        }
+        #Add2{
+            margin-left: 7rem;
+        }
+        #Add{
+            margin: 0;
+        }
+        #prof{
+            h5{
+                text-align: center;
+            }
+        }
+    #models{
+        height: 7rem;
+        width: 7rem;
+    }
+    td{
+        width: 8rem;
+    }
+    table{
+        width: 100%;
+    }
+    #spro2{
+        width: 7rem;
+        padding: 1rem;
+        font-size: 0.7rem;
+        p{
+            font-size:0.9rem;
+        }
+        h3{
+            font-size: 0.8rem;
+            width:7rem;
+        }
+        #price{
+            flex-direction:column;
+        }
+    }
+    #spro{
+        display: none;
+    }   
+    }
+    tr{
+        width: 100%;
+    }
+    #mcontrol{
+        display:block ;
+        
+    }
+    li{
+        color: white;
+    }
+    
+    .list-group{
+        flex-direction: row;
+        position: fixed;
+        // align-items: flex-end;
+        background-color: rgb(37, 37, 122);
+        justify-content: space-evenly;
+        width: 100%;
+        // top: 92vh;
+        bottom: 0;
+        // height: 97vh;
+        align-items: center;
+        height: 4rem;
+        list-style: none;
+        font-size: 2rem;
+    }
+    #mul{
+        
+        // display: flex;
+        // position: absolute;
+        // flex-direction: row;
+        // height: 100vh;
+        // width: 100%;
+        // align-items: flex-end;
+        // justify-content: space-evenly;
+    }
+}
