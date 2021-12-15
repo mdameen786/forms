@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-image: url('./images/whether.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Fruktur', cursive;
+     
+}
+#one{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+#iicons{
+    margin-top: 1rem;
+height: 3rem;   
+width: 3rem; 
+}
+#greet{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ 
+   
+}
+#two{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* h3{
+    text-align: center;
+    
+} */
+body{
+    
+}
+.mas{
+    margin: 7rem 0;
+}
+#wh{
+    width: 15rem;
+    /* height: 20vh; */
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+#hd{
+    color: white;
+    font-size: 170%;
+    font-weight: bolder;
+}
+#hdp{
+    color: white;
+    font-size: 130%;
+    font-weight: bolder;
+}
+#nw{
+    
+    height: 5rem;
+    
+}
+.ic{
+    display: flex;
+}
+#wh:hover{
+    cursor: pointer;
+   
+}
+@media only screen and (max-width:800px){
+body{
+height: 100vh;
+
+}
+#wh{
+    width: 37%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 6rem;
+    justify-content: space-around;
+}
+#one{
+    margin-bottom: 0;
+}
+.mas{
+    margin: 0;
+}
+#nw{
+    height: 2.5rem;
+}
+.ic{
+    margin: 1rem 0;
+}
+}

@@ -1,0 +1,22 @@
+$prim-color:whitesmoke;
+$second-color:grey;
+%box{
+    width:5rem;
+    background-color:$prim-color;
+    border-radius:1rem;
+    color:$second-color;
+    
+}
+%box:hover{
+    cursor:pointer;
+    width:6rem;
+    padding:5rem;
+}
+p{
+    @extend %box;
+    
+}
+img{
+    @extend %box;
+}
+// s

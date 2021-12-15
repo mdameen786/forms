@@ -1,0 +1,96 @@
+body{
+    background-image:linear-gradient(violet,blueviolet);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+}
+p{
+    width:15rem;
+}
+
+#box{
+    background-color:white;
+    width:50%;
+    height:50%;
+    border-radius:25px;
+    display:flex;
+    margin:15% auto;
+    justify-content:center;
+    
+    position:relative;
+}
+#wnmb{
+    display: none;
+}
+#wn{
+    height:20rem;
+    position:absolute;
+    right:60%;
+    top:50px;
+    top:20px;
+}
+ul{
+    list-style:none;
+    margin-left:30%;
+
+  
+}
+#bx{
+position:absolute;
+left:-8.7rem;
+top:8rem;
+width:26%;
+}
+h5{
+    align-content:center;
+}
+li{
+    margin:10px 0;
+}
+i{
+    position: absolute;
+    right: 2rem;
+    color: orange;
+    cursor: pointer;
+}
+hr{
+    width: 100%;
+    padding-left: 3rem;
+    margin: 20px 0;
+}
+@media only screen and (max-width:800px){
+
+body{
+    height: 100%;
+}
+hr{
+    width:100%;
+}
+#pht{
+    display:none;
+}
+ul{
+    margin-left:0;
+}
+#box{
+    width:90%;
+    justify-content: flex-start;
+}
+
+#wnmb{
+    display: block;
+    margin: 3rem auto;
+    width: 90%;
+}
+li{
+    margin: 15px 0;
+}
+i{
+    right: 1rem;
+}
+
+button{
+    background-color: brown;
+}
+}

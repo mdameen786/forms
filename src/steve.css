@@ -1,0 +1,184 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://bootstrap/dist/css/bootstrap.min.css');
+p{
+    font-family: 'Fruktur', cursive;
+ 
+}
+#cntrl{
+    display: none;
+}
+#ic{
+    display: none;
+}
+#cntrls{
+    display: none;
+}
+#abt{
+    cursor: pointer;
+
+}
+#abt:hover{
+    cursor: pointer;
+    padding: 1%;
+   color: white;
+   border-radius: 25px;
+}
+h1{
+    
+font-family: 'Qahiri', sans-serif
+}
+#st{
+    width: 70%;
+    border-radius: 25px;
+    
+    display: none;
+    margin: 2rem auto;
+}
+#cto{
+    height: 25rem;
+    
+}
+/* #profile{
+    
+    top: 0;
+    text-align: center;
+    position: sticky;
+   
+} */
+#cntimg{
+    display: flex;
+    justify-content: space-between;
+}
+#box{
+background-color: white;
+color: black;
+border-radius: 25px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 50%;
+}
+#n{
+    height: 20rem;
+    width: 50rem;
+    
+}
+
+#headings{
+    display: flex;
+    background-color: rgb(21, 197, 35);
+   margin: 2rem 0;
+   color: white;
+    justify-content: space-between;
+    
+}
+h2{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+#ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+list-style: none;
+cursor: pointer;
+display: flex;
+justify-content: center;
+}
+#ctn:hover{
+    font-size:larger;
+    background-color: rgb(21, 197, 35);
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 25px;
+ margin: 0 auto;   
+}
+#contnt{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+body{
+    /* background-color: blueviolet; */
+    /* color: #dfdfdf; */
+    
+}
+#ns{
+    height: 20rem;
+    
+}
+#profile{
+    position: sticky;
+    text-align: center;
+    width: 30%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    height: 100vh;
+}
+@media only screen and (max-width:800px){
+
+#n{
+  
+    height: 10rem;
+}
+body{
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+#profile{
+    width: 100%;
+    height:75vh;
+    margin: 1rem 0;
+}
+#st{
+    width: 100%;
+    margin: 3rem 0;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    display: none;
+}
+#cntimg{
+    display: block;
+    
+}
+li{
+  cursor: none;  
+}
+#headings{
+    margin: 0;
+}
+#contnt{
+    display: none;
+}
+#abt{
+    cursor: none;
+}
+#box{
+    display: none;
+}
+#cntrl{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(21, 197, 35);
+    padding: 2rem;
+    font-size: 2rem;
+    
+}
+#ic{
+    display: block;
+}
+#ns{
+    height: 68%;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+}
