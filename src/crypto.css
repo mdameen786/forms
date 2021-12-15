@@ -137,7 +137,7 @@ tr{
 }
 .heading:hover{
     font-weight: bold;
-    background-color: white;
+    background-color: #fff;
     cursor: auto;
 }
 #part2{
